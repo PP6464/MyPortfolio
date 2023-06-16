@@ -6,3 +6,4 @@ My portfolio, displaying my coding abilities
 - Areas of expertise
 - Frameworks 
 - What I'm exploring
+- My code
