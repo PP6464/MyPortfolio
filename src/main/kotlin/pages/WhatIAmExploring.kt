@@ -5,7 +5,7 @@ import react.Props
 import react.dom.html.ReactHTML.h1
 
 val WhatIAmExploring = FC<Props> {
-    h1 {
-        +"What I'm exploring"
-    }
+	h1 {
+		+"What I'm exploring"
+	}
 }

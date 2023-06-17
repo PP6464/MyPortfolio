@@ -8,15 +8,15 @@ import react.dom.html.ReactHTML.img
 import web.cssom.ClassName
 
 val Home = FC<Props> {
-    div {
-        className = ClassName("container")
-        img {
-            src = "/panth-pic.png"
-            alt = ""
-            id = "home-panth-pic"
-        }
-        h1 {
-            +"Home"
-        }
-    }
+	div {
+		className = ClassName("container")
+		img {
+			src = "/panth-pic.png"
+			alt = ""
+			id = "home-panth-pic"
+		}
+		h1 {
+			+"Home"
+		}
+	}
 }
