@@ -17,6 +17,8 @@ dependencies {
 	implementation("org.jetbrains.kotlin-wrappers:kotlin-react-redux:7.2.6-pre.568")
 	implementation("org.jetbrains.kotlin-wrappers:kotlin-react-router-dom:6.12.1-pre.564")
 	implementation("org.jetbrains.kotlin-wrappers:kotlin-mui-icons:5.11.16-pre.568")
+	implementation("org.jetbrains.kotlin-wrappers:kotlin-emotion:11.11.1-pre.568")
+	
 }
 
 kotlin {
