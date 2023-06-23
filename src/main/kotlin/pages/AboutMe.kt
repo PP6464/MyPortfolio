@@ -10,7 +10,6 @@ import react.dom.html.ReactHTML.h3
 import react.dom.html.ReactHTML.img
 import react.dom.html.ReactHTML.p
 import web.cssom.ClassName
-import web.cssom.TextAlign
 import web.cssom.TextDecoration
 import web.cssom.px
 import web.window.WindowTarget
@@ -44,9 +43,6 @@ val AboutMe = FC<Props> {
 			+"About Me"
 		}
 		p {
-			style = jso {
-				textAlign = TextAlign.center
-			}
 			+"I am a self-taught programmer with experience using many different frameworks and I have experience with many different areas of programming, spanning web and app development to API and neural network development."
 		}
 		h3 {
