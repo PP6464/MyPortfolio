@@ -47,7 +47,7 @@ val AboutMe = FC<Props> {
 			style = jso {
 				textAlign = TextAlign.center
 			}
-			+"I am a programmer with experience using many different frameworks and I have experience with many different areas of programming, spanning web and app development to API and neural network development."
+			+"I am a self-taught programmer with experience using many different frameworks and I have experience with many different areas of programming, spanning web and app development to API and neural network development."
 		}
 		h3 {
 			style = jso {
