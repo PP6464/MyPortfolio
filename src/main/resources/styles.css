@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   list-style: none;
+  text-align: center;
 }
 
 a {
@@ -87,7 +88,7 @@ nav {
 	flex-direction: row;
 	position: fixed;
 	top: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 1;
   background: white;
 }
@@ -121,7 +122,6 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin: 0 10px;
 }
 
 .contact-detail {
@@ -136,6 +136,42 @@ nav {
 	align-items: center;
 	justify-content: center;
 }
+
+.section {
+	opacity: 0;
+	filter: blur(5px);
+	width: 100%;
+	transform: translateX(-100%);
+	margin: 0 -10px;
+	transition: all 1s;
+	display: flex;
+}
+
+.section:nth-child(odd) {
+	flex-direction: row-reverse;
+	transform: translateX(100%);
+}
+
+.section.visible {
+	opacity: 1;
+	filter: blur(0);
+	transform: translateX(0);
+	display: flex;
+}
+
+.section img {
+	height: 100%;
+	width: 50%;
+}
+
+.section div {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	transition-delay: 1s;
+}
+
 
 @keyframes rotate90 {
 	0% {
@@ -220,4 +256,10 @@ nav {
   .white-background {
 		top: calc(170px + 15vh);
   }
+}
+
+@media (prefers-reduced-motion) {
+	.section {
+		transition: none;
+	}
 }
