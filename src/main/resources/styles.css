@@ -260,6 +260,10 @@ nav {
   .section div h1 {
   	font-size: 2.5em;
   }
+
+  .section div p {
+    font-size: 1em;
+  }
 }
 
 @media (prefers-reduced-motion) {
@@ -272,10 +276,18 @@ nav {
 	.section div h1 {
     font-size: 1.75em;
   }
+
+  .section div p {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (max-width: 500px) {
 	.section div h1 {
     font-size: 1em;
+  }
+
+  .section div p {
+    font-size: 0.75em;
   }
 }
