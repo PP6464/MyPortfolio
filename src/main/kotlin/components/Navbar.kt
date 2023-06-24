@@ -88,6 +88,7 @@ val Navbar = FC<Props> {
 					h1 {
 						style = jso {
 							color = NamedColor.black
+							width = 6.em
 						}
 						+"Panth Patel"
 					}
@@ -183,6 +184,7 @@ val Navbar = FC<Props> {
 					h1 {
 						style = jso {
 							color = NamedColor.black
+							width = 6.em
 						}
 						+"Panth Patel"
 					}
