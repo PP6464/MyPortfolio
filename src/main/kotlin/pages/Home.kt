@@ -3,18 +3,16 @@ package pages
 import js.core.jso
 import react.FC
 import react.Props
-import react.dom.html.ReactHTML.a
 import react.dom.html.ReactHTML.h1
 import react.dom.html.ReactHTML.div
 import react.dom.html.ReactHTML.img
 import react.dom.html.ReactHTML.p
+import react.router.dom.Link
 import react.useEffect
-import web.cssom.ClassName
-import web.cssom.Padding
-import web.cssom.TextAlign
-import web.cssom.px
+import web.cssom.*
 import web.dom.document
 import web.dom.observers.IntersectionObserver
+import mui.icons.material.ArrowOutward as ArrowOutwardIcon
 
 val Home = FC<Props> {
 	val observer = IntersectionObserver(callback = { entries, _ ->
@@ -65,9 +63,20 @@ val Home = FC<Props> {
 				p {
 					+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
 				}
-				a {
-					href = "/areas-of-expertise"
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/areas-of-expertise"
 					+"Learn more"
+					ArrowOutwardIcon {
+						style = jso {
+							height = 17.5.px
+						}
+					}
 				}
 			}
 			img {
@@ -84,9 +93,20 @@ val Home = FC<Props> {
 				p {
 					+"I am adept with many programming frameworks for both frontend and backend development, so I can fill many roles in many different projects."
 				}
-				a {
-					href = "/frameworks"
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/frameworks"
 					+"Learn more"
+					ArrowOutwardIcon {
+						style = jso {
+							height = 17.5.px
+						}
+					}
 				}
 			}
 			img {
@@ -103,9 +123,20 @@ val Home = FC<Props> {
 				p {
 					+"I am always looking to expand my skill set, to make me more suitable for more projects. I am currently looking to expand my capabilities in game development and low level programming as well as further enhancing my skills in my areas of expertise with new frameworks."
 				}
-				a {
-					href = "/what-i-am-exploring"
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/what-i-am-exploring"
 					+"Learn more"
+					ArrowOutwardIcon {
+						style = jso {
+							height = 17.5.px
+						}
+					}
 				}
 			}
 			img {
@@ -122,9 +153,20 @@ val Home = FC<Props> {
 				p {
 					+"I believe in collaboration when it comes to programming, and so I use Github to host my code and collaborate with others. Please click below to view my code."
 				}
-				a {
-					href = "/my-code"
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code"
 					+"Learn more"
+					ArrowOutwardIcon {
+						style = jso {
+							height = 17.5.px
+						}
+					}
 				}
 			}
 			img {
