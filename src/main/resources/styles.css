@@ -171,6 +171,15 @@ nav {
 	display: flex;
 	flex-direction: column;
 	transition-delay: 1s;
+	padding: 0 5px;
+}
+
+#about-me-root div {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 @keyframes rotate90 {
@@ -264,12 +273,11 @@ nav {
   .section div p {
     font-size: 1em;
   }
-}
 
-@media (prefers-reduced-motion) {
-	.section {
-		transition: none;
-	}
+  #about-me-root {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media only screen and (500px <= width <= 1000px) {
@@ -279,6 +287,11 @@ nav {
 
   .section div p {
     font-size: 1em;
+  }
+
+  #about-me-root {
+    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -290,4 +303,19 @@ nav {
   .section div p {
     font-size: 0.75em;
   }
+
+  #about-me-root {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about-me-root div {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion) {
+	.section {
+		transition: none;
+	}
 }
