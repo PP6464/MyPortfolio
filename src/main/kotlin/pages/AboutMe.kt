@@ -6,13 +6,9 @@ import react.Props
 import react.dom.html.ReactHTML.a
 import react.dom.html.ReactHTML.div
 import react.dom.html.ReactHTML.h1
-import react.dom.html.ReactHTML.h3
 import react.dom.html.ReactHTML.img
 import react.dom.html.ReactHTML.p
-import web.cssom.ClassName
-import web.cssom.Padding
-import web.cssom.TextDecoration
-import web.cssom.px
+import web.cssom.*
 import web.window.WindowTarget
 import mui.icons.material.LinkedIn as LinkedInIcon
 import mui.icons.material.Phone as PhoneIcon
@@ -47,9 +43,7 @@ val AboutMe = FC<Props> {
 					+"About Me"
 				}
 				p {
-					style = jso {
-						padding = Padding(0.px, 10.px)
-					}
+					id = "about-me-text"
 					+"I am a self-taught programmer with experience using many different frameworks and I have experience with many different areas of programming, spanning web and app development to API and neural network development."
 				}
 			}
