@@ -40,62 +40,71 @@ val AboutMe = FC<Props> {
 			alt = ""
 			className = ClassName("panth-pic")
 		}
-		h1 {
-			+"About Me"
-		}
-		p {
-			style = jso {
-				padding = Padding(0.px, 10.px)
-			}
-			+"I am a self-taught programmer with experience using many different frameworks and I have experience with many different areas of programming, spanning web and app development to API and neural network development."
-		}
-		h3 {
-			style = jso {
-				textDecoration = TextDecoration.underline
-			}
-			+"Contact Me:"
-		}
-		contactDetails.map {
+		div {
+			id = "about-me-root"
 			div {
-				className = ClassName("contact-detail")
-				when (it.key) {
-					"linkedIn" -> a {
-						href = "https://www.linkedin.com/in/${it.value}"
-						target = WindowTarget._blank
-						rel = "noreferrer"
-						LinkedInIcon {
-							style = jso {
-								height = 20.px
-								paddingRight = 5.px
-							}
-						}
-						p {
-							+"Panth Patel"
-						}
+				h1 {
+					+"About Me"
+				}
+				p {
+					style = jso {
+						padding = Padding(0.px, 10.px)
 					}
-					"email" -> a {
-						href = "mailto:${it.value}"
-						target = WindowTarget._blank
-						rel = "noreferrer"
-						EmailIcon {
-							style = jso {
-								height = 20.px
-								paddingRight = 5.px
+					+"I am a self-taught programmer with experience using many different frameworks and I have experience with many different areas of programming, spanning web and app development to API and neural network development."
+				}
+			}
+			div {
+				h1 {
+					+"Contact Me"
+				}
+				contactDetails.map {
+					div {
+						className = ClassName("contact-detail")
+						when (it.key) {
+							"linkedIn" -> a {
+								href = "https://www.linkedin.com/in/${it.value}"
+								target = WindowTarget._blank
+								rel = "noreferrer"
+								LinkedInIcon {
+									style = jso {
+										height = 20.px
+										paddingRight = 5.px
+									}
+								}
+								p {
+									+"Panth Patel"
+								}
 							}
-						}
-						p {
-							+it.value
-						}
-					}
-					"phone" -> {
-						PhoneIcon {
-							style = jso {
-								height = 20.px
-								paddingRight = 5.px
+							
+							"email" -> a {
+								href = "mailto:${it.value}"
+								target = WindowTarget._blank
+								rel = "noreferrer"
+								EmailIcon {
+									style = jso {
+										height = 20.px
+										paddingRight = 5.px
+									}
+								}
+								p {
+									+it.value
+								}
 							}
-						}
-						p {
-							+it.value
+							
+							"phone" -> a {
+								href = "tel:${it.value.replace(" ", "-")}"
+								target = WindowTarget._blank
+								rel = "noreferrer"
+								PhoneIcon {
+									style = jso {
+										height = 20.px
+										paddingRight = 5.px
+									}
+								}
+								p {
+									+it.value
+								}
+							}
 						}
 					}
 				}
