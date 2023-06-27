@@ -12,7 +12,7 @@ import react.useEffect
 import web.cssom.*
 import web.dom.document
 import web.dom.observers.IntersectionObserver
-import mui.icons.material.ArrowOutward as ArrowOutwardIcon
+import mui.icons.material.ArrowOutward
 
 val Home = FC<Props> {
 	val observer = IntersectionObserver(callback = { entries, _ ->
@@ -77,7 +77,7 @@ val Home = FC<Props> {
 					}
 					to = "/areas-of-expertise"
 					+"Learn more"
-					ArrowOutwardIcon {
+					ArrowOutward {
 						style = jso {
 							height = 17.5.px
 						}
@@ -112,7 +112,7 @@ val Home = FC<Props> {
 					}
 					to = "/frameworks"
 					+"Learn more"
-					ArrowOutwardIcon {
+					ArrowOutward {
 						style = jso {
 							height = 17.5.px
 						}
@@ -147,7 +147,7 @@ val Home = FC<Props> {
 					}
 					to = "/what-i-am-exploring"
 					+"Learn more"
-					ArrowOutwardIcon {
+					ArrowOutward {
 						style = jso {
 							height = 17.5.px
 						}
@@ -182,7 +182,7 @@ val Home = FC<Props> {
 					}
 					to = "/my-code"
 					+"Learn more"
-					ArrowOutwardIcon {
+					ArrowOutward {
 						style = jso {
 							height = 17.5.px
 						}

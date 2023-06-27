@@ -14,8 +14,8 @@ import react.dom.html.ReactHTML.p
 import web.cssom.*
 import web.timers.setTimeout
 import kotlin.time.Duration
-import mui.icons.material.Email as EmailIcon
-import mui.icons.material.Phone as PhoneIcon
+import mui.icons.material.Email
+import mui.icons.material.Phone
 
 enum class Route(val route: String, val title: String) {
 	HOME("/", "Home"),
@@ -97,7 +97,7 @@ val Navbar = FC<Props> {
 							display = Display.flex
 							flexDirection = FlexDirection.row
 						}
-						EmailIcon {
+						Email {
 							style = jso {
 								height = 17.5.px
 							}
@@ -115,7 +115,7 @@ val Navbar = FC<Props> {
 							display = Display.flex
 							flexDirection = FlexDirection.row
 						}
-						PhoneIcon {
+						Phone {
 							style = jso {
 								height = 17.5.px
 							}
@@ -193,7 +193,7 @@ val Navbar = FC<Props> {
 							display = Display.flex
 							flexDirection = FlexDirection.row
 						}
-						EmailIcon {
+						Email {
 							style = jso {
 								height = 17.5.px
 							}
@@ -211,7 +211,7 @@ val Navbar = FC<Props> {
 							display = Display.flex
 							flexDirection = FlexDirection.row
 						}
-						PhoneIcon {
+						Phone {
 							style = jso {
 								height = 17.5.px
 							}

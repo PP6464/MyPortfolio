@@ -10,9 +10,9 @@ import react.dom.html.ReactHTML.img
 import react.dom.html.ReactHTML.p
 import web.cssom.*
 import web.window.WindowTarget
-import mui.icons.material.LinkedIn as LinkedInIcon
-import mui.icons.material.Phone as PhoneIcon
-import mui.icons.material.Email as EmailIcon
+import mui.icons.material.LinkedIn
+import mui.icons.material.Phone
+import mui.icons.material.Email
 
 val AboutMe = FC<Props> {
 	val contactDetails = mapOf(
@@ -59,7 +59,7 @@ val AboutMe = FC<Props> {
 								href = "https://www.linkedin.com/in/${it.value}"
 								target = WindowTarget._blank
 								rel = "noreferrer"
-								LinkedInIcon {
+								LinkedIn {
 									style = jso {
 										height = 20.px
 										paddingRight = 5.px
@@ -74,7 +74,7 @@ val AboutMe = FC<Props> {
 								href = "mailto:${it.value}"
 								target = WindowTarget._blank
 								rel = "noreferrer"
-								EmailIcon {
+								Email {
 									style = jso {
 										height = 20.px
 										paddingRight = 5.px
@@ -89,7 +89,7 @@ val AboutMe = FC<Props> {
 								href = "tel:${it.value.replace(" ", "-")}"
 								target = WindowTarget._blank
 								rel = "noreferrer"
-								PhoneIcon {
+								Phone {
 									style = jso {
 										height = 20.px
 										paddingRight = 5.px
