@@ -214,6 +214,11 @@ nav {
 	width: min(35vw, 400px);
 }
 
+.framework-type {
+	display: flex;
+	flex-direction: column;
+}
+
 @keyframes rotate90 {
 	0% {
 		transform: rotate(0deg);
