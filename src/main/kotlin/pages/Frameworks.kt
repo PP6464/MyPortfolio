@@ -8,7 +8,6 @@ import react.dom.html.ReactHTML.p
 import react.dom.html.ReactHTML.img
 import react.dom.html.ReactHTML.h1
 import react.dom.html.ReactHTML.div
-import react.dom.html.ReactHTML.h3
 import react.router.dom.Link
 import react.useEffect
 import web.cssom.*
@@ -51,7 +50,7 @@ val Frameworks = FC<Props> {
 		div {
 			id = "web-development"
 			className = ClassName("framework-type")
-			h3 {
+			h1 {
 				style = jso {
 					paddingBottom = 5.px
 				}
@@ -131,7 +130,7 @@ val Frameworks = FC<Props> {
 		div {
 			id = "app-development"
 			className = ClassName("framework-type")
-			h3 {
+			h1 {
 				style = jso {
 					paddingBottom = 5.px
 				}
@@ -211,7 +210,7 @@ val Frameworks = FC<Props> {
 		div {
 			id = "ai-development"
 			className = ClassName("framework-type")
-			h3 {
+			h1 {
 				style = jso {
 					paddingBottom = 5.px
 				}
@@ -291,7 +290,7 @@ val Frameworks = FC<Props> {
 		div {
 			id = "api-development"
 			className = ClassName("framework-type")
-			h3 {
+			h1 {
 				style = jso {
 					paddingBottom = 5.px
 				}
