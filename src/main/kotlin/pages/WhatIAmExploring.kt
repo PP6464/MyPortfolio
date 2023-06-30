@@ -3,9 +3,28 @@ package pages
 import react.FC
 import react.Props
 import react.dom.html.ReactHTML.h1
+import react.dom.html.ReactHTML.div
+import react.dom.html.ReactHTML.img
+import web.cssom.ClassName
 
 val WhatIAmExploring = FC<Props> {
-	h1 {
-		+"What I'm exploring"
+	div {
+		className = ClassName("container")
+		img {
+			src = "/code-background.png"
+			alt = ""
+			className = ClassName("code-background")
+		}
+		div {
+			className = ClassName("white-background")
+		}
+		img {
+			src = "/panth-pic.png"
+			alt = ""
+			className = ClassName("panth-pic")
+		}
+		h1 {
+			+"What I'm exploring"
+		}
 	}
 }
