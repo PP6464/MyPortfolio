@@ -327,7 +327,7 @@ nav {
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 825px) {
 	.section div div, .section img {
     width: 100%;
   }
