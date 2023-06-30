@@ -18,6 +18,9 @@ dependencies {
 	implementation("org.jetbrains.kotlin-wrappers:kotlin-react-router-dom:6.12.1-pre.564")
 	implementation("org.jetbrains.kotlin-wrappers:kotlin-mui-icons:5.11.16-pre.568")
 	implementation("org.jetbrains.kotlin-wrappers:kotlin-emotion:11.11.1-pre.568")
+	implementation("dev.gitlive:firebase-firestore:1.8.1")
+	implementation("dev.gitlive:firebase-common:1.8.1")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.2")
 	
 }
 
