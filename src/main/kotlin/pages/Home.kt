@@ -59,13 +59,13 @@ val Home = FC<Props> {
 			div {
 				div {
 					h1 {
-						+"Areas of expertise"
+						+"Skills"
 					}
 					p {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"I am skilled in many areas of programming. I can develop both frontend and backend with many frameworks, making me a great fit into most projects."
 					}
 				}
 				Link {
@@ -75,7 +75,7 @@ val Home = FC<Props> {
 						justifyContent = JustifyContent.center
 						fontSize = 15.px
 					}
-					to = "/areas-of-expertise"
+					to = "/skills"
 					+"Learn more"
 					ArrowOutward {
 						style = jso {

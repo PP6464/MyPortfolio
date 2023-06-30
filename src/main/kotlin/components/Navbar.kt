@@ -20,7 +20,7 @@ import mui.icons.material.Phone
 enum class Route(val route: String, val title: String) {
 	HOME("/", "Home"),
 	ABOUT_ME("/about-me", "About Me"),
-	AREAS_OF_EXPERTISE("/areas-of-expertise", "Areas of expertise"),
+	SKILLS("/skills", "Skills"),
 	FRAMEWORKS("/frameworks", "Frameworks"),
 	WHAT_I_AM_EXPLORING("/what-i-am-exploring", "What I'm exploring"),
 	MY_CODE("/my-code", "My Code"),
@@ -31,7 +31,7 @@ enum class Route(val route: String, val title: String) {
 			return when (path) {
 				HOME.route -> HOME
 				ABOUT_ME.route -> ABOUT_ME
-				AREAS_OF_EXPERTISE.route -> AREAS_OF_EXPERTISE
+				SKILLS.route -> SKILLS
 				FRAMEWORKS.route -> FRAMEWORKS
 				WHAT_I_AM_EXPLORING.route -> WHAT_I_AM_EXPLORING
 				MY_CODE.route -> MY_CODE

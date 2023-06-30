@@ -14,7 +14,7 @@ import react.useEffect
 import web.dom.document
 import web.dom.observers.IntersectionObserver
 
-val AreasOfExpertise = FC<Props> {
+val Skills = FC<Props> {
 	val observer = IntersectionObserver(callback = { entries, _ ->
 		entries.map {
 			if (it.isIntersecting) {
@@ -45,7 +45,7 @@ val AreasOfExpertise = FC<Props> {
 			className = ClassName("panth-pic")
 		}
 		h1 {
-			+"Areas of expertise"
+			+"Skills"
 		}
 		div {
 			className = ClassName("section")

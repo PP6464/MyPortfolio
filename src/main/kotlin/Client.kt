@@ -24,8 +24,8 @@ val appRouter = createBrowserRouter(
 					element = AboutMe.create()
 				},
 				jso {
-					path = "areas-of-expertise"
-					element = AreasOfExpertise.create()
+					path = "skills"
+					element = Skills.create()
 				},
 				jso {
 					path = "frameworks"

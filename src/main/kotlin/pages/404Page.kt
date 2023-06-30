@@ -34,8 +34,8 @@ val NotFoundPage = FC<Props> {
 			}
 			li {
 				Link {
-					to = "areas-of-expertise"
-					+"Areas of expertise"
+					to = "skills"
+					+"Skills"
 				}
 			}
 			li {
