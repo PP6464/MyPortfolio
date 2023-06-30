@@ -47,289 +47,322 @@ val Frameworks = FC<Props> {
 		h1 {
 			+"Frameworks"
 		}
-		div {
+		h1 {
 			id = "web-development"
-			className = ClassName("framework-type")
-			h1 {
-				style = jso {
-					paddingBottom = 5.px
-				}
-				+"Web development"
-			}
+			className = ClassName("framework-starting-h1")
+			+"Web development"
+		}
+		div {
+			className = ClassName("section")
 			div {
-				className = ClassName("section")
 				div {
-					div {
-						h1 {
-							+"Kotlin React"
-						}
-						p {
-							style = jso {
-								paddingBottom = 45.px
-							}
-							+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
-						}
+					h1 {
+						+"Kotlin React"
 					}
-					Link {
+					p {
 						style = jso {
-							display = Display.flex
-							alignItems = AlignItems.center
-							justifyContent = JustifyContent.center
-							fontSize = 15.px
+							paddingBottom = 45.px
 						}
-						to = "/my-code#kotlin-react"
-						+"View my code"
-						ArrowOutward {
-							style = jso {
-								height = 17.5.px
-							}
-						}
+						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
 					}
 				}
-				img {
-					src = "/code-background.png"
-					alt = ""
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code#kotlin-react"
+					+"View my code"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
+						}
+					}
 				}
 			}
-			div {
-				className = ClassName("section")
-				div {
-					div {
-						h1 {
-							+"React"
-						}
-						p {
-							style = jso {
-								paddingBottom = 45.px
-							}
-							+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
-						}
-					}
-					Link {
-						style = jso {
-							display = Display.flex
-							alignItems = AlignItems.center
-							justifyContent = JustifyContent.center
-							fontSize = 15.px
-						}
-						to = "/my-code#react"
-						+"View my code"
-						ArrowOutward {
-							style = jso {
-								height = 17.5.px
-							}
-						}
-					}
-				}
-				img {
-					src = "/code-background.png"
-					alt = ""
-				}
+			img {
+				src = "/code-background.png"
+				alt = ""
 			}
 		}
 		div {
+			className = ClassName("section")
+			div {
+				div {
+					h1 {
+						+"React"
+					}
+					p {
+						style = jso {
+							paddingBottom = 45.px
+						}
+						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+					}
+				}
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code#react"
+					+"View my code"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
+						}
+					}
+				}
+			}
+			img {
+				src = "/code-background.png"
+				alt = ""
+			}
+		}
+		h1 {
 			id = "app-development"
-			className = ClassName("framework-type")
-			h1 {
-				style = jso {
-					paddingBottom = 5.px
-				}
-				+"App development"
-			}
-			div {
-				className = ClassName("section")
-				div {
-					div {
-						h1 {
-							+"Flutter"
-						}
-						p {
-							style = jso {
-								paddingBottom = 45.px
-							}
-							+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
-						}
-					}
-					Link {
-						style = jso {
-							display = Display.flex
-							alignItems = AlignItems.center
-							justifyContent = JustifyContent.center
-							fontSize = 15.px
-						}
-						to = "/my-code#flutter"
-						+"View my code"
-						ArrowOutward {
-							style = jso {
-								height = 17.5.px
-							}
-						}
-					}
-				}
-				img {
-					src = "/code-background.png"
-					alt = ""
-				}
-			}
-			div {
-				className = ClassName("section")
-				div {
-					div {
-						h1 {
-							+"Kotlin Multiplatform Mobile"
-						}
-						p {
-							style = jso {
-								paddingBottom = 45.px
-							}
-							+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
-						}
-					}
-					Link {
-						style = jso {
-							display = Display.flex
-							alignItems = AlignItems.center
-							justifyContent = JustifyContent.center
-							fontSize = 15.px
-						}
-						to = "/my-code#kmm"
-						+"View my code"
-						ArrowOutward {
-							style = jso {
-								height = 17.5.px
-							}
-						}
-					}
-				}
-				img {
-					src = "/code-background.png"
-					alt = ""
-				}
+			className = ClassName("framework-starting-h1")
+			+"App development"
+		}
+		div {
+			className = ClassName("section")
+			style = jso {
+				height = 5.px
 			}
 		}
 		div {
+			className = ClassName("section")
+			div {
+				div {
+					h1 {
+						+"Flutter"
+					}
+					p {
+						style = jso {
+							paddingBottom = 45.px
+						}
+						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+					}
+				}
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code#flutter"
+					+"View my code"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
+						}
+					}
+				}
+			}
+			img {
+				src = "/code-background.png"
+				alt = ""
+			}
+		}
+		div {
+			className = ClassName("section")
+			div {
+				div {
+					h1 {
+						+"Kotlin Multiplatform Mobile"
+					}
+					p {
+						style = jso {
+							paddingBottom = 45.px
+						}
+						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+					}
+				}
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code#kmm"
+					+"View my code"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
+						}
+					}
+				}
+			}
+			img {
+				src = "/code-background.png"
+				alt = ""
+			}
+		}
+		h1 {
 			id = "ai-development"
-			className = ClassName("framework-type")
-			h1 {
-				style = jso {
-					paddingBottom = 5.px
-				}
-				+"AI development"
-			}
-			div {
-				className = ClassName("section")
-				div {
-					div {
-						h1 {
-							+"Kotlin DL"
-						}
-						p {
-							style = jso {
-								paddingBottom = 45.px
-							}
-							+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
-						}
-					}
-					Link {
-						style = jso {
-							display = Display.flex
-							alignItems = AlignItems.center
-							justifyContent = JustifyContent.center
-							fontSize = 15.px
-						}
-						to = "/my-code#kotlin-dl"
-						+"View my code"
-						ArrowOutward {
-							style = jso {
-								height = 17.5.px
-							}
-						}
-					}
-				}
-				img {
-					src = "/code-background.png"
-					alt = ""
-				}
-			}
-			div {
-				className = ClassName("section")
-				div {
-					div {
-						h1 {
-							+"Tensorflow"
-						}
-						p {
-							style = jso {
-								paddingBottom = 45.px
-							}
-							+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
-						}
-					}
-					Link {
-						style = jso {
-							display = Display.flex
-							alignItems = AlignItems.center
-							justifyContent = JustifyContent.center
-							fontSize = 15.px
-						}
-						to = "/my-code#tensorflow"
-						+"View my code"
-						ArrowOutward {
-							style = jso {
-								height = 17.5.px
-							}
-						}
-					}
-				}
-				img {
-					src = "/code-background.png"
-					alt = ""
-				}
+			className = ClassName("framework-starting-h1")
+			+"AI development"
+		}
+		div {
+			className = ClassName("section")
+			style = jso {
+				height = 5.px
 			}
 		}
 		div {
-			id = "api-development"
-			className = ClassName("framework-type")
-			h1 {
-				style = jso {
-					paddingBottom = 5.px
-				}
-				+"API development"
-			}
+			className = ClassName("section")
 			div {
-				className = ClassName("section")
 				div {
-					div {
-						h1 {
-							+"Ktor"
-						}
-						p {
-							style = jso {
-								paddingBottom = 45.px
-							}
-							+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
-						}
+					h1 {
+						+"Kotlin DL"
 					}
-					Link {
+					p {
 						style = jso {
-							display = Display.flex
-							alignItems = AlignItems.center
-							justifyContent = JustifyContent.center
-							fontSize = 15.px
+							paddingBottom = 45.px
 						}
-						to = "/my-code#ktor"
-						+"View my code"
-						ArrowOutward {
-							style = jso {
-								height = 17.5.px
-							}
+						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+					}
+				}
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code#kotlin-dl"
+					+"View my code"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
 						}
 					}
 				}
-				img {
-					src = "/code-background.png"
-					alt = ""
+			}
+			img {
+				src = "/code-background.png"
+				alt = ""
+			}
+		}
+		div {
+			className = ClassName("section")
+			div {
+				div {
+					h1 {
+						+"Tensorflow"
+					}
+					p {
+						style = jso {
+							paddingBottom = 45.px
+						}
+						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+					}
 				}
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code#tensorflow"
+					+"View my code"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
+						}
+					}
+				}
+			}
+			img {
+				src = "/code-background.png"
+				alt = ""
+			}
+		}
+		h1 {
+			id = "api-development"
+			className = ClassName("framework-starting-h1")
+			+"API development"
+		}
+		div {
+			className = ClassName("section")
+			style = jso {
+				height = 5.px
+			}
+		}
+		div {
+			className = ClassName("section")
+			div {
+				div {
+					h1 {
+						+"Ktor"
+					}
+					p {
+						style = jso {
+							paddingBottom = 45.px
+						}
+						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+					}
+				}
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code#ktor"
+					+"View my code"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
+						}
+					}
+				}
+			}
+			img {
+				src = "/code-background.png"
+				alt = ""
+			}
+		}
+		div {
+			className = ClassName("section")
+			div {
+				div {
+					h1 {
+						+"Nest"
+					}
+					p {
+						style = jso {
+							paddingBottom = 45.px
+						}
+						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+					}
+				}
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code#nest"
+					+"View my code"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
+						}
+					}
+				}
+			}
+			img {
+				src = "/code-background.png"
+				alt = ""
 			}
 		}
 	}
