@@ -52,7 +52,7 @@ val WhatIAmExploring = FC<Props> {
 						fontSize = 15.px
 					}
 					to = "/frameworks#web-development"
-					+"Learn more"
+					+"View experimental code"
 					ArrowOutward {
 						style = jso {
 							height = 17.5.px
@@ -87,7 +87,7 @@ val WhatIAmExploring = FC<Props> {
 						fontSize = 15.px
 					}
 					to = "/frameworks#web-development"
-					+"Learn more"
+					+"View experimental code"
 					ArrowOutward {
 						style = jso {
 							height = 17.5.px
@@ -122,7 +122,7 @@ val WhatIAmExploring = FC<Props> {
 						fontSize = 15.px
 					}
 					to = "/frameworks#web-development"
-					+"Learn more"
+					+"View experimental code"
 					ArrowOutward {
 						style = jso {
 							height = 17.5.px
@@ -157,7 +157,7 @@ val WhatIAmExploring = FC<Props> {
 						fontSize = 15.px
 					}
 					to = "/frameworks#web-development"
-					+"Learn more"
+					+"View experimental code"
 					ArrowOutward {
 						style = jso {
 							height = 17.5.px
