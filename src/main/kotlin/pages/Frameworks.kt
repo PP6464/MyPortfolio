@@ -1,7 +1,11 @@
 package pages
 
 import js.core.jso
+import kotlinx.browser.window
 import mui.icons.material.ArrowOutward
+import org.w3c.dom.SMOOTH
+import org.w3c.dom.ScrollBehavior
+import org.w3c.dom.ScrollToOptions
 import react.FC
 import react.Props
 import react.dom.html.ReactHTML.p
@@ -9,6 +13,7 @@ import react.dom.html.ReactHTML.img
 import react.dom.html.ReactHTML.h1
 import react.dom.html.ReactHTML.div
 import react.router.dom.Link
+import react.router.useLocation
 import react.useEffect
 import web.cssom.*
 import web.dom.document
@@ -24,11 +29,25 @@ val Frameworks = FC<Props> {
 			}
 		}
 	})
+	val location = useLocation()
 	
 	useEffect {
 		val sections = document.querySelectorAll(".section")
 		sections.forEach(observer::observe)
 	}
+	
+	useEffect {
+		val navbarHeight = if (window.innerWidth < 1000) 0.15 * window.innerHeight + 20 else 0.1 * window.innerHeight + 60
+		if (location.hash.isNotEmpty()) {
+			val el = document.querySelector(location.hash)
+			if (el !== null) {
+				val elementPosition = el.getBoundingClientRect().top + window.pageYOffset
+				val scrollPosition = elementPosition - navbarHeight
+				window.scrollTo(ScrollToOptions(top = scrollPosition, behavior = ScrollBehavior.SMOOTH))
+			}
+		}
+	}
+	
 	div {
 		className = ClassName("container")
 		img {
