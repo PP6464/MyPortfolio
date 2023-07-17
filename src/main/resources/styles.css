@@ -138,6 +138,22 @@ nav {
 	justify-content: center;
 }
 
+.my-code-name {
+    text-decoration: underline;
+}
+
+#my-code-container > div {
+    padding: 10px;
+}
+
+#my-code-container > div:hover {
+    background: #EEEEEE;
+}
+
+#my-code-container > div > a {
+    border-bottom: 2px solid lime;
+}
+
 .section {
 	opacity: 0;
 	filter: blur(5px);
