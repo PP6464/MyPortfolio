@@ -29,13 +29,12 @@ val Frameworks = FC<Props> {
 			}
 		}
 	})
-	val location = useLocation()
-	
 	useEffect {
 		val sections = document.querySelectorAll(".section")
 		sections.forEach(observer::observe)
 	}
-	
+
+	val location = useLocation()
 	useEffect {
 		val navbarHeight = if (window.innerWidth < 1000) 0.15 * window.innerHeight + 20 else 0.1 * window.innerHeight + 60
 		if (location.hash.isNotEmpty()) {
