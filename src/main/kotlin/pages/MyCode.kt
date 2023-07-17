@@ -149,6 +149,9 @@ val MyCode = FC<Props> {
 			id = "tensorflow"
 			+"Tensorflow"
 		}
+		p {
+			+"(No code yet)"
+		}
 		h3 {
 			id = "ktor"
 			+"Ktor"
@@ -201,13 +204,22 @@ val MyCode = FC<Props> {
 			id = "computer-vision"
 			+"Computer Vision"
 		}
+		p {
+			+"(No code yet)"
+		}
 		h3 {
 			id = "angular"
 			+"Angular"
 		}
+		p {
+			+"(No code yet)"
+		}
 		h3 {
 			id = "arduino"
 			+"Arduino"
+		}
+		p {
+			+"(No code yet)"
 		}
 	}
 }
