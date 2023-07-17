@@ -9,9 +9,27 @@ import react.dom.html.ReactHTML.div
 import react.dom.html.ReactHTML.img
 import react.dom.html.ReactHTML.p
 import react.router.dom.Link
+import react.useEffect
 import web.cssom.*
+import web.dom.document
+import web.dom.observers.IntersectionObserver
 
 val WhatIAmExploring = FC<Props> {
+	val observer = IntersectionObserver(callback = { entries, _ ->
+		entries.map {
+			if (it.isIntersecting) {
+				it.target.classList.add("visible")
+			} else {
+				it.target.classList.remove("visible")
+			}
+		}
+	})
+
+	useEffect {
+		val sections = document.querySelectorAll(".section")
+		sections.forEach(observer::observe)
+	}
+
 	div {
 		className = ClassName("container")
 		img {
