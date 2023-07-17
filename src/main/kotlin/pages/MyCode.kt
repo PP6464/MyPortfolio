@@ -33,6 +33,7 @@ val MyCode = FC<Props> {
 	}
 
 	div {
+		id = "my-code-container"
 		className = ClassName("container")
 		img {
 			src = "/code-background.png"
@@ -55,95 +56,120 @@ val MyCode = FC<Props> {
 			+"Kotlin React"
 		}
 		p {
+			className = ClassName("my-code-name")
 			+"My portfolio (this website)"
 		}
-		a {
-			href = "https://github.com/PP6464/MyPortfolio"
-			target = WindowTarget._blank
-			rel = "noreferrer"
-			+"View code on Github"
+		div {
+			a {
+				href = "https://github.com/PP6464/MyPortfolio"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
 		}
 		h3 {
 			id = "react"
 			+"React"
 		}
 		p {
+			className = ClassName("my-code-name")
 			+"20785C Website"
 		}
-		a {
-			href = "https://github.com/PP6464/20785CWeb"
-			target = WindowTarget._blank
-			rel = "noreferrer"
-			+"View code on Github"
+		div {
+			a {
+				href = "https://github.com/PP6464/20785CWeb"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
 		}
-		a {
-			href = "https://20785c.tech"
-			target = WindowTarget._blank
-			rel = "noreferrer"
-			+"View website"
+		div {
+			a {
+				href = "https://20785c.tech"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View website"
+			}
 		}
 		p {
+			className = ClassName("my-code-name")
 			+"Hale Hamilton Employee Management System (Website) [Work Experience]"
 		}
-		a {
-			href = "https://github.com/PP6464/hale-hamilton-employee-project"
-			target = WindowTarget._blank
-			rel = "noreferrer"
-			+"View code on Github"
+		div {
+			a {
+				href = "https://github.com/PP6464/hale-hamilton-employee-project"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
 		}
-		a {
-			href = "https://hale-hamilton-employee-project.web.app"
-			target = WindowTarget._blank
-			rel = "noreferrer"
-			+"View website"
+		div {
+			a {
+				href = "https://hale-hamilton-employee-project.web.app"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View website"
+			}
 		}
 		h3 {
 			id = "flutter"
 			+ "Flutter"
 		}
 		p {
+			className = ClassName("my-code-name")
 			+"Commenter (App) [Work in progress]"
 		}
-		a {
-			href = "https://github.com/PP6464/commenter-app"
-			target = WindowTarget._blank
-			rel = "noreferrer"
-			+"View code on Github"
+		div {
+			a {
+				href = "https://github.com/PP6464/commenter-app"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
 		}
 		p {
+			className = ClassName("my-code-name")
 			+"Mercury (App) [Work in progress]"
 		}
-		a {
-			href = "https://github.com/PP6464/mercury-app"
-			target = WindowTarget._blank
-			rel = "noreferrer"
-			+"View code on Github"
+		div {
+			a {
+				href = "https://github.com/PP6464/mercury-app"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
 		}
 		h3 {
 			id = "kmm"
 			+"Kotlin Multiplatform Mobile"
 		}
 		p {
+			className = ClassName("my-code-name")
 			+"Marsbazaar (KMM app)"
 		}
-		a {
-			href = "https://github.com/PP6464/marsbazaar-kmm"
-			target = WindowTarget._blank
-			rel = "noreferrer"
-			+"View code on Github"
+		div {
+			a {
+				href = "https://github.com/PP6464/marsbazaar-kmm"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
 		}
 		h3 {
 			id = "kotlin-dl"
 			+"Kotlin DL"
 		}
 		p {
+			className = ClassName("my-code-name")
 			+"My First Neural Network"
 		}
-		a {
-			href = "https://github.com/PP6464/KotlinNeuralNetwork"
-			target = WindowTarget._blank
-			rel = "noreferrer"
-			+"View code on Github"
+		div {
+			a {
+				href = "https://github.com/PP6464/KotlinNeuralNetwork"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
 		}
 		h3 {
 			id = "tensorflow"
@@ -157,48 +183,60 @@ val MyCode = FC<Props> {
 			+"Ktor"
 		}
 		p {
+			className = ClassName("my-code-name")
 			+"Encode API"
 		}
-		a {
-			href = "https://github.com/PP6464/EncodeAPI"
-			target = WindowTarget._blank
-			rel = "noreferrer"
-			+"View code on Github"
+		div {
+			a {
+				href = "https://github.com/PP6464/EncodeAPI"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
 		}
 		h3 {
 			id = "nest"
 			+"Nest"
 		}
 		p {
+			className = ClassName("my-code-name")
 			+"Mercury (API) [Work in progress]"
 		}
-		a {
-			href = "https://github.com/PP6464/mercury-api"
-			target = WindowTarget._blank
-			rel = "noreferrer"
-			+"View code on Github"
+		div {
+			a {
+				href = "https://github.com/PP6464/mercury-api"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
 		}
 		p {
+			className = ClassName("my-code-name")
 			+"Hale Hamilton Employee Management System (API) [Work Experience]"
 		}
-		a {
-			href = "https://github.com/PP6464/hale-hamilton-employee-api"
-			target = WindowTarget._blank
-			rel = "noreferrer"
-			+"View code on Github"
+		div {
+			a {
+				href = "https://github.com/PP6464/hale-hamilton-employee-api"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
 		}
 		h3 {
 			id = "game-development"
 			+"Game Development (Experimental)"
 		}
 		p {
+			className = ClassName("my-code-name")
 			+"Race3D [Work in progress]"
 		}
-		a {
-			href = "https://github.com/PP6464/Race3D"
-			target = WindowTarget._blank
-			rel = "noreferrer"
-			+"View code on Github"
+		div {
+			a {
+				href = "https://github.com/PP6464/Race3D"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
 		}
 		h3 {
 			id = "computer-vision"
