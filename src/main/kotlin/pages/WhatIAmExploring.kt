@@ -46,6 +46,9 @@ val WhatIAmExploring = FC<Props> {
 			className = ClassName("panth-pic")
 		}
 		h1 {
+			style = jso {
+				marginBottom = 5.px
+			}
 			+"What I'm exploring"
 		}
 		div {
