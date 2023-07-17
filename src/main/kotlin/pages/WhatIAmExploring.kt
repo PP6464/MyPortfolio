@@ -75,7 +75,7 @@ val WhatIAmExploring = FC<Props> {
 						justifyContent = JustifyContent.center
 						fontSize = 15.px
 					}
-					to = "/my-code#gmae-development"
+					to = "/my-code#game-development"
 					+"View experimental code"
 					ArrowOutward {
 						style = jso {
