@@ -75,7 +75,7 @@ val WhatIAmExploring = FC<Props> {
 						justifyContent = JustifyContent.center
 						fontSize = 15.px
 					}
-					to = "/frameworks#web-development"
+					to = "/my-code#gmae-development"
 					+"View experimental code"
 					ArrowOutward {
 						style = jso {
@@ -110,7 +110,7 @@ val WhatIAmExploring = FC<Props> {
 						justifyContent = JustifyContent.center
 						fontSize = 15.px
 					}
-					to = "/frameworks#web-development"
+					to = "/my-code#computer-vision"
 					+"View experimental code"
 					ArrowOutward {
 						style = jso {
@@ -145,7 +145,7 @@ val WhatIAmExploring = FC<Props> {
 						justifyContent = JustifyContent.center
 						fontSize = 15.px
 					}
-					to = "/frameworks#web-development"
+					to = "/my-code#angular"
 					+"View experimental code"
 					ArrowOutward {
 						style = jso {
@@ -180,7 +180,7 @@ val WhatIAmExploring = FC<Props> {
 						justifyContent = JustifyContent.center
 						fontSize = 15.px
 					}
-					to = "/frameworks#web-development"
+					to = "/my-code#arduino"
 					+"View experimental code"
 					ArrowOutward {
 						style = jso {
