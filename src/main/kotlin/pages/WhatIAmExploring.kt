@@ -50,6 +50,9 @@ val WhatIAmExploring = FC<Props> {
 		}
 		div {
 			className = ClassName("section")
+		}
+		div {
+			className = ClassName("section")
 			div {
 				div {
 					h1 {
