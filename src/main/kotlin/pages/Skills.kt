@@ -64,7 +64,7 @@ val Skills = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"I have great ability in web development, already having developed a few websites for other people. I can develop an aesthetically pleasing frontend and integrate it with a backend seamlessly."
 					}
 				}
 				Link {
@@ -99,7 +99,7 @@ val Skills = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"App development is one of my favourite areas of programming. I have already developed apps and am continuing to improve my skills with new frameworks such as KMM"
 					}
 				}
 				Link {
@@ -134,7 +134,7 @@ val Skills = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"I have an interest in developing AI to further expand my capabilities as a full stack developer, by developing and deploying AI models, which I can use in apps, websites and APIs."
 					}
 				}
 				Link {
@@ -169,7 +169,7 @@ val Skills = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"I am able to develop RESTful APIs quickly and in a manner that is maintainable, thus producing immaculate and organised APIs. I am looking to further enhance my skills in this area by learning about GraphQL APIs."
 					}
 				}
 				Link {
