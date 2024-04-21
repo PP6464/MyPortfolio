@@ -94,6 +94,41 @@ val WhatIAmExploring = FC<Props> {
 			div {
 				div {
 					h1 {
+						+"Machine Learning"
+					}
+					p {
+						style = jso {
+							paddingBottom = 45.px
+						}
+						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+					}
+				}
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code#machine-learning"
+					+"View experimental code"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
+						}
+					}
+				}
+			}
+			img {
+				src = "/code-background.png"
+				alt = ""
+			}
+		}
+		div {
+			className = ClassName("section")
+			div {
+				div {
+					h1 {
 						+"Computer Vision"
 					}
 					p {

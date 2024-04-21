@@ -223,6 +223,21 @@ val MyCode = FC<Props> {
 			}
 		}
 		h3 {
+			id = "Mathematics"
+			+"Mathematics"
+		}
+		p {
+			className = ClassName("my-code-name")
+		}
+		div {
+			a {
+				href = "https://github.com/PP6464/Julia-FFT"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
+		}
+		h3 {
 			id = "game-development"
 			+"Game Development (Experimental)"
 		}
@@ -255,6 +270,13 @@ val MyCode = FC<Props> {
 		h3 {
 			id = "arduino"
 			+"Arduino"
+		}
+		p {
+			+"(No code yet)"
+		}
+		h3 {
+			id = "machine-learning"
+			+"Machine Learning"
 		}
 		p {
 			+"(No code yet)"
