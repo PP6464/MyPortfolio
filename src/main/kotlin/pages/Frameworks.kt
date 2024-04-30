@@ -383,5 +383,45 @@ val Frameworks = FC<Props> {
 				alt = ""
 			}
 		}
+		h1 {
+			id = "mathematics"
+			className = ClassName("framework-starting-h1")
+			+"Mathematics"
+		}
+		div {
+			className = ClassName("section")
+			div {
+				div {
+					h1 {
+						+"Julia"
+					}
+					p {
+						style = jso {
+							paddingBottom = 45.px
+						}
+						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+					}
+				}
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code#nest"
+					+"View my code"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
+						}
+					}
+				}
+			}
+			img {
+				src = "/code-background.png"
+				alt = ""
+			}
+		}
 	}
 }
