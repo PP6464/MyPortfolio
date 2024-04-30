@@ -1,5 +1,6 @@
 package pages
 
+import js.core.jso
 import kotlinx.browser.window
 import org.w3c.dom.SMOOTH
 import org.w3c.dom.ScrollBehavior
@@ -15,6 +16,7 @@ import react.dom.html.ReactHTML.p
 import react.router.useLocation
 import react.useEffect
 import web.cssom.ClassName
+import web.cssom.px
 import web.dom.document
 import web.window.WindowTarget
 
@@ -53,6 +55,9 @@ val MyCode = FC<Props> {
 		}
 		h3 {
 			id = "kotlin-react"
+			style = jso {
+				marginTop = 10.px
+			}
 			+"Kotlin React"
 		}
 		p {

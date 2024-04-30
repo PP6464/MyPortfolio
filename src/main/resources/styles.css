@@ -154,6 +154,10 @@ nav {
     border-bottom: 2px solid lime;
 }
 
+#my-code-container > h3 {
+    margin-top: 35px;
+}
+
 .section {
 	opacity: 0;
 	filter: blur(5px);
