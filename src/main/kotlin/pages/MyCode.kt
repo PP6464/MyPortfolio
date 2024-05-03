@@ -243,6 +243,18 @@ val MyCode = FC<Props> {
 				+"View code on Github"
 			}
 		}
+		p {
+			className = ClassName("my-code-name")
+			+"Matrix exponentiator"
+		}
+		div {
+			a {
+				href = "http://github.com/PP6464/MatrixExponent"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
+		}
 		h3 {
 			id = "game-development"
 			+"Game Development (Experimental)"

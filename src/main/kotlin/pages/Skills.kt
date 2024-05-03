@@ -99,7 +99,7 @@ val Skills = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"App development is one of my favourite areas of programming. I have already developed apps and am continuing to improve my skills with new frameworks such as KMM"
+						+"App development is one of my favourite areas of programming. I have already developed apps and am continuing to improve my skills with new frameworks such as KMM."
 					}
 				}
 				Link {
@@ -180,6 +180,41 @@ val Skills = FC<Props> {
 						fontSize = 15.px
 					}
 					to = "/frameworks#api-development"
+					+"Learn more"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
+						}
+					}
+				}
+			}
+			img {
+				src = "/code-background.png"
+				alt = ""
+			}
+		}
+		div {
+			className = ClassName("section")
+			div {
+				div {
+					h1 {
+						+"Mathematics"
+					}
+					p {
+						style = jso {
+							paddingBottom = 45.px
+						}
+						+"I have a keen interest and great aptitude in mathematics, which is very important for grasping the key concepts of machine learning. I particularly enjoy calculus and I also enjoy engaging in complex problems (pun intended), but I still enjoy all parts of maths."
+					}
+				}
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/frameworks#mathematics"
 					+"Learn more"
 					ArrowOutward {
 						style = jso {
