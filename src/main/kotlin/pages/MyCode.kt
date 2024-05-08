@@ -144,6 +144,18 @@ val MyCode = FC<Props> {
 				+"View code on Github"
 			}
 		}
+		p {
+			className = ClassName("my-code-name")
+			+"Tetraconnect (App) [Work in progress]"
+		}
+		div {
+			a {
+				href = "https://github.com/PP6464/tetraconnect"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
+		}
 		h3 {
 			id = "kmm"
 			+"Kotlin Multiplatform Mobile"
