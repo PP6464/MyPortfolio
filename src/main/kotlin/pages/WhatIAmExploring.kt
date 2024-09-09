@@ -65,7 +65,7 @@ val WhatIAmExploring = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"Game development ties together many aspects of programming that I love, e.g. from low-level computation, e.g., running code on GPUs to the mathematics behind physics engines in games and front-end design to make the game more enjoyable."
 					}
 				}
 				Link {
@@ -100,7 +100,7 @@ val WhatIAmExploring = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"As it is one of the most important fields in the modern world, I am keen to become more skilled and proficient in designing ML models that are accurate and scalable."
 					}
 				}
 				Link {
@@ -135,7 +135,7 @@ val WhatIAmExploring = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"In conjunction with ML, computer vision opens the doors to many different possibilities, e.g., face recognition software built into CCTV cameras, as well as self-driving vehicles."
 					}
 				}
 				Link {
@@ -170,7 +170,7 @@ val WhatIAmExploring = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"Angular is a framework that has intrigued me due to its exceptional code organisation and the use of TypeScript, which makes its code easy to understand and collaborate on."
 					}
 				}
 				Link {
@@ -205,7 +205,7 @@ val WhatIAmExploring = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"Because it is able to control hardware, e.g. LED lights, directly, Arduino is a very interesting and exciting framework for me to learn, and it creates endless different possibilites for what can be done by programming."
 					}
 				}
 				Link {
