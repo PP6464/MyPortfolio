@@ -81,7 +81,7 @@ val Frameworks = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"As I am very competent in both Kotlin and React, being able to achieve great feats with both, I am able to naturally produce very beautiful web apps with Kotlin react, such as this portfolio"
 					}
 				}
 				Link {
@@ -116,7 +116,7 @@ val Frameworks = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"Through my use of Kotlin-React, I have also built a great understanding of React, and have used it to build dynamic and elegant websites."
 					}
 				}
 				Link {
@@ -162,7 +162,7 @@ val Frameworks = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"I have achieved a lot with Flutter, making multiplayer games and chat apps using the framework, which simplifies and streamlines app development."
 					}
 				}
 				Link {
@@ -197,7 +197,7 @@ val Frameworks = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"I am very proficient in Kotlin, and this has let me use Kotlin Multiplatform Mobile to develop very elegant apps that use native widgets to feel more at home with the user's OS, whether that be iOS or Android, as well as using native backend APIs."
 					}
 				}
 				Link {
@@ -243,7 +243,7 @@ val Frameworks = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"KotlinDL is a framework I enjoy and excel in using, due to it letting me access the powers of deep learning on device with KotlinDL for Android, as well as because it is written in Kotlin, which I excel in, and so am easily able to use"
 					}
 				}
 				Link {
@@ -278,7 +278,7 @@ val Frameworks = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"Tensorflow is a framework used the world over to develop many thousands of deep learning models, and through my use of Tensorflow, I have become much more proficient and confident in it."
 					}
 				}
 				Link {
@@ -324,7 +324,7 @@ val Frameworks = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"Ktor is a framework I excel in using because I am very proficient in Kotlin, as well as understanding REST API architecture, letting me take full advantage of Ktor's plentiful features."
 					}
 				}
 				Link {
@@ -359,7 +359,7 @@ val Frameworks = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"Nest is a framework I excel in due to my understanding of API design, as well as my high proficiency in TypeScript, which lets me be able to naturally use this framework to design very robust APIs."
 					}
 				}
 				Link {
@@ -400,7 +400,7 @@ val Frameworks = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"Although more of a language than a framework, I still excel in using Julia to develop very efficient algorithms, inspired by a lot of cutting-edge mathematics, such as the Fast Fourier Transform, which I have written an implementation of."
 					}
 				}
 				Link {
@@ -435,7 +435,7 @@ val Frameworks = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"I have expertise in many areas of programming, and I am a full stack developer. I am able to develop both frontend and backend with many frameworks, making me a great fit into most projects."
+						+"Sympy is a Python framework I excel in due to having a very strong mathematical foundation, which is exactly what Sympy is based off. It lets me use numeric computation to solve many mathematical problems through efficient computation."
 					}
 				}
 				Link {
