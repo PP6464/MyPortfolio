@@ -144,6 +144,18 @@ val MyCode = FC<Props> {
 				+"View code on Github"
 			}
 		}
+		p {
+			className = ClassName("my-code-name")
+			+"Tetraconnect"
+		}
+		div {
+			a {
+				href = "https://github.com/PP6464/Tetraconnect"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
+		}
 		h3 {
 			id = "kmm"
 			+"Kotlin Multiplatform Mobile"
@@ -181,7 +193,16 @@ val MyCode = FC<Props> {
 			+"Tensorflow"
 		}
 		p {
-			+"(No code yet)"
+			className = ClassName("my-code-name")
+			+"Random List Checker"
+		}
+		div {
+			a {
+				href = "https://github.com/PP6464/RandomListChecker"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View on Github"
+			}
 		}
 		h3 {
 			id = "ktor"
