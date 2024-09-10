@@ -85,42 +85,7 @@ val WhatIAmExploring = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
-				alt = ""
-			}
-		}
-		div {
-			className = ClassName("section")
-			div {
-				div {
-					h1 {
-						+"Machine Learning"
-					}
-					p {
-						style = jso {
-							paddingBottom = 45.px
-						}
-						+"As it is one of the most important fields in the modern world, I am keen to become more skilled and proficient in designing ML models that are accurate and scalable."
-					}
-				}
-				Link {
-					style = jso {
-						display = Display.flex
-						alignItems = AlignItems.center
-						justifyContent = JustifyContent.center
-						fontSize = 15.px
-					}
-					to = "/my-code#machine-learning"
-					+"View experimental code"
-					ArrowOutward {
-						style = jso {
-							height = 17.5.px
-						}
-					}
-				}
-			}
-			img {
-				src = "/code-background.png"
+				src = "/game-dev.jpeg"
 				alt = ""
 			}
 		}
@@ -155,42 +120,7 @@ val WhatIAmExploring = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
-				alt = ""
-			}
-		}
-		div {
-			className = ClassName("section")
-			div {
-				div {
-					h1 {
-						+"Angular"
-					}
-					p {
-						style = jso {
-							paddingBottom = 45.px
-						}
-						+"Angular is a framework that has intrigued me due to its exceptional code organisation and the use of TypeScript, which makes its code easy to understand and collaborate on."
-					}
-				}
-				Link {
-					style = jso {
-						display = Display.flex
-						alignItems = AlignItems.center
-						justifyContent = JustifyContent.center
-						fontSize = 15.px
-					}
-					to = "/my-code#angular"
-					+"View experimental code"
-					ArrowOutward {
-						style = jso {
-							height = 17.5.px
-						}
-					}
-				}
-			}
-			img {
-				src = "/code-background.png"
+				src = "/computer-vision.jpeg"
 				alt = ""
 			}
 		}
@@ -225,7 +155,7 @@ val WhatIAmExploring = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/arduino.jpeg"
 				alt = ""
 			}
 		}
