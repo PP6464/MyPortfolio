@@ -300,46 +300,11 @@ val MyCode = FC<Props> {
 			+"(No code yet)"
 		}
 		h3 {
-			id = "angular"
-			+"Angular"
-		}
-		p {
-			+"(No code yet)"
-		}
-		h3 {
 			id = "arduino"
 			+"Arduino"
 		}
 		p {
 			+"(No code yet)"
-		}
-		h3 {
-			id = "machine-learning"
-			+"Machine Learning"
-		}
-		p {
-			className = ClassName("my-code-name")
-			+"Random List Checker"
-		}
-		div {
-			a {
-				href = "https://github.com/PP6464/RandomListChecker"
-				target = WindowTarget._blank
-				rel = "noreferrer"
-				+"View on Github"
-			}
-		}
-		p {
-			className = ClassName("my-code-name")
-			+"Kotlin FCNN"
-		}
-		div {
-			a {
-				href = "https://github.com/PP6464/KotlinNeuralNetwork"
-				target = WindowTarget._blank
-				rel = "noreferrer"
-				+"View code on Github"
-			}
 		}
 	}
 }
