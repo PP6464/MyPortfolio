@@ -178,7 +178,7 @@ val MyCode = FC<Props> {
 		}
 		p {
 			className = ClassName("my-code-name")
-			+"My First Neural Network"
+			+"Kotlin FCNN"
 		}
 		div {
 			a {
@@ -278,7 +278,7 @@ val MyCode = FC<Props> {
 		}
 		h3 {
 			id = "game-development"
-			+"Game Development (Experimental)"
+			+"Game Development"
 		}
 		p {
 			className = ClassName("my-code-name")
@@ -318,7 +318,28 @@ val MyCode = FC<Props> {
 			+"Machine Learning"
 		}
 		p {
-			+"(No code yet)"
+			className = ClassName("my-code-name")
+			+"Random List Checker"
+		}
+		div {
+			a {
+				href = "https://github.com/PP6464/RandomListChecker"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View on Github"
+			}
+		}
+		p {
+			className = ClassName("my-code-name")
+			+"Kotlin FCNN"
+		}
+		div {
+			a {
+				href = "https://github.com/PP6464/KotlinNeuralNetwork"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
 		}
 	}
 }
