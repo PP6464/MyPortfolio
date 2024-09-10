@@ -84,7 +84,7 @@ val Skills = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/web-dev.jpg"
 				alt = ""
 			}
 		}
@@ -119,7 +119,7 @@ val Skills = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/app-dev.jpg"
 				alt = ""
 			}
 		}
@@ -154,7 +154,7 @@ val Skills = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/ai-dev.jpeg"
 				alt = ""
 			}
 		}
@@ -189,7 +189,7 @@ val Skills = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/api-dev.png"
 				alt = ""
 			}
 		}
@@ -224,7 +224,7 @@ val Skills = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/mathematics-skills.jpg"
 				alt = ""
 			}
 		}

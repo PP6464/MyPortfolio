@@ -85,7 +85,7 @@ val Home = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/skills.png"
 				alt = ""
 			}
 		}
@@ -120,7 +120,7 @@ val Home = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/frameworks.webp"
 				alt = ""
 			}
 		}
@@ -155,7 +155,7 @@ val Home = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/what-i-am-exploring.png"
 				alt = ""
 			}
 		}
@@ -190,7 +190,7 @@ val Home = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/my-code.png"
 				alt = ""
 			}
 		}

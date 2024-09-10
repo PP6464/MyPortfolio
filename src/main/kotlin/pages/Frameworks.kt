@@ -101,7 +101,7 @@ val Frameworks = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/kotlin-react.png"
 				alt = ""
 			}
 		}
@@ -136,7 +136,7 @@ val Frameworks = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/react.png"
 				alt = ""
 			}
 		}
@@ -182,7 +182,7 @@ val Frameworks = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/flutter.png"
 				alt = ""
 			}
 		}
@@ -217,7 +217,7 @@ val Frameworks = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/KMM.png"
 				alt = ""
 			}
 		}
@@ -263,7 +263,7 @@ val Frameworks = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/kotlin-dl.webp"
 				alt = ""
 			}
 		}
@@ -298,7 +298,7 @@ val Frameworks = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/tf.png"
 				alt = ""
 			}
 		}
@@ -344,7 +344,7 @@ val Frameworks = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/ktor.png"
 				alt = ""
 			}
 		}
@@ -379,7 +379,7 @@ val Frameworks = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/nestjs.png"
 				alt = ""
 			}
 		}
@@ -400,7 +400,7 @@ val Frameworks = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"Although more of a language than a framework, I still excel in using Julia to develop very efficient algorithms, inspired by a lot of cutting-edge mathematics, such as the Fast Fourier Transform, which I have written an implementation of."
+						+"I excel in using Julia to develop very efficient algorithms, inspired by a lot of cutting-edge mathematics, such as the Fast Fourier Transform, which I have written an implementation of."
 					}
 				}
 				Link {
@@ -420,7 +420,7 @@ val Frameworks = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/julia.png"
 				alt = ""
 			}
 		}
@@ -455,7 +455,7 @@ val Frameworks = FC<Props> {
 				}
 			}
 			img {
-				src = "/code-background.png"
+				src = "/sympy.jpg"
 				alt = ""
 			}
 		}
