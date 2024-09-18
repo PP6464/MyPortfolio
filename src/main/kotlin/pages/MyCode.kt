@@ -297,7 +297,16 @@ val MyCode = FC<Props> {
 			+"Computer Vision"
 		}
 		p {
-			+"(No code yet)"
+			className = ClassName("my-code-name")
+			+"Face Recogniser"
+		}
+		div {
+			a {
+				href = "https://github.com/PP6464/FaceRecogniser"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
 		}
 		h3 {
 			id = "arduino"
