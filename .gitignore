@@ -3,3 +3,6 @@ build
 .gradle
 # IDEA settings
 .idea
+# Deployment files
+hosting.*.cache
+archive.zip
