@@ -51,6 +51,9 @@ val AboutMe = FC<Props> {
 			}
 			div {
 				h1 {
+					style = jso {
+						marginBottom = 10.px
+					}
 					+"Contact Me"
 				}
 				contactDetails.map {
@@ -63,7 +66,7 @@ val AboutMe = FC<Props> {
 								rel = "noreferrer"
 								LinkedIn {
 									style = jso {
-										height = 20.px
+										height = 30.px
 										paddingRight = 5.px
 									}
 								}
@@ -78,7 +81,7 @@ val AboutMe = FC<Props> {
 								rel = "noreferrer"
 								Email {
 									style = jso {
-										height = 20.px
+										height = 30.px
 										paddingRight = 5.px
 									}
 								}
@@ -93,7 +96,7 @@ val AboutMe = FC<Props> {
 								rel = "noreferrer"
 								Phone {
 									style = jso {
-										height = 20.px
+										height = 30.px
 										paddingRight = 5.px
 									}
 								}
@@ -108,7 +111,7 @@ val AboutMe = FC<Props> {
 								rel = "noreferrer"
 								GitHub {
 									style = jso {
-										height = 20.px
+										height = 30.px
 										paddingRight = 5.px
 									}
 								}

@@ -126,6 +126,7 @@ nav {
 }
 
 .contact-detail {
+    height: 30px;
 	display: flex;
 	font-size: 15px;
 	align-items: center;
