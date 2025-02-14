@@ -238,7 +238,7 @@ val MyCode = FC<Props> {
 		}
 		p {
 			className = ClassName("my-code-name")
-			+"Commenter (API)"
+			+"Commenter (API) [Work in progress]"
 		}
 		div {
 			a {
