@@ -13,12 +13,14 @@ import web.window.WindowTarget
 import mui.icons.material.LinkedIn
 import mui.icons.material.Phone
 import mui.icons.material.Email
+import mui.icons.material.GitHub
 
 val AboutMe = FC<Props> {
 	val contactDetails = mapOf(
 		"linkedIn" to "panth-patel-b92309214",
+		"github" to "PP6464",
 		"email" to "32ppatel@gmail.com",
-		"phone" to "+44 73058 21678"
+		"phone" to "+44 73058 21678",
 	)
 	
 	div {
@@ -90,6 +92,21 @@ val AboutMe = FC<Props> {
 								target = WindowTarget._blank
 								rel = "noreferrer"
 								Phone {
+									style = jso {
+										height = 20.px
+										paddingRight = 5.px
+									}
+								}
+								p {
+									+it.value
+								}
+							}
+
+							"github" -> a {
+								href = "https://github.com/PP6464/"
+								target = WindowTarget._blank
+								rel = "noreferrer"
+								GitHub {
 									style = jso {
 										height = 20.px
 										paddingRight = 5.px
