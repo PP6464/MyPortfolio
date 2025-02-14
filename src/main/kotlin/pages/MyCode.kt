@@ -122,18 +122,6 @@ val MyCode = FC<Props> {
 		}
 		p {
 			className = ClassName("my-code-name")
-			+"Commenter (App) [Work in progress]"
-		}
-		div {
-			a {
-				href = "https://github.com/PP6464/commenter-app"
-				target = WindowTarget._blank
-				rel = "noreferrer"
-				+"View code on Github"
-			}
-		}
-		p {
-			className = ClassName("my-code-name")
 			+"Mercury (App) [Work in progress]"
 		}
 		div {
@@ -173,6 +161,22 @@ val MyCode = FC<Props> {
 			}
 		}
 		h3 {
+			id = "compose"
+			+"Jetpack Compose"
+		}
+		p {
+			className = ClassName("my-code-name")
+			+"Commenter (Android app) [Work in progress]"
+		}
+		div {
+			a {
+				href = "https://github.com/PP6464/commenter-android"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
+		}
+		h3 {
 			id = "kotlin-dl"
 			+"Kotlin DL"
 		}
@@ -204,6 +208,18 @@ val MyCode = FC<Props> {
 				+"View on Github"
 			}
 		}
+		p {
+			className = ClassName("my-code-name")
+			+"Face Recogniser"
+		}
+		div {
+			a {
+				href = "https://github.com/PP6464/FaceRecogniser"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
+		}
 		h3 {
 			id = "ktor"
 			+"Ktor"
@@ -215,6 +231,18 @@ val MyCode = FC<Props> {
 		div {
 			a {
 				href = "https://github.com/PP6464/EncodeAPI"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
+		}
+		p {
+			className = ClassName("my-code-name")
+			+"Commenter (API)"
+		}
+		div {
+			a {
+				href = "https://github.com/PP6464/commenter-backend"
 				target = WindowTarget._blank
 				rel = "noreferrer"
 				+"View code on Github"
@@ -314,6 +342,11 @@ val MyCode = FC<Props> {
 		}
 		p {
 			+"(No code yet)"
+		}
+		p {
+			style = jso {
+				marginBottom = 10.px
+			}
 		}
 	}
 }

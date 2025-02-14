@@ -191,6 +191,41 @@ val Frameworks = FC<Props> {
 			div {
 				div {
 					h1 {
+						+"Jetpack Compose"
+					}
+					p {
+						style = jso {
+							paddingBottom = 45.px
+						}
+						+"Jetpack Compose is the new way to develop native Android applications and I have become much more proficient and experienced in this framework as I have used it more and more."
+					}
+				}
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code#compose"
+					+"View my code"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
+						}
+					}
+				}
+			}
+			img {
+				src = "/compose.png"
+				alt = ""
+			}
+		}
+		div {
+			className = ClassName("section")
+			div {
+				div {
+					h1 {
 						+"Kotlin Multiplatform Mobile"
 					}
 					p {
@@ -278,7 +313,7 @@ val Frameworks = FC<Props> {
 						style = jso {
 							paddingBottom = 45.px
 						}
-						+"Tensorflow is a framework used the world over to develop many thousands of deep learning models, and through my use of Tensorflow, I have become much more proficient and confident in it."
+						+"Tensorflow is a framework used the world over to develop many thousands of deep learning models, and through using Tensorflow, I have become more proficient and confident in it."
 					}
 				}
 				Link {
