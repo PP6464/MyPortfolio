@@ -122,18 +122,6 @@ val MyCode = FC<Props> {
 		}
 		p {
 			className = ClassName("my-code-name")
-			+"Mercury (App) [Work in progress]"
-		}
-		div {
-			a {
-				href = "https://github.com/PP6464/mercury-app"
-				target = WindowTarget._blank
-				rel = "noreferrer"
-				+"View code on Github"
-			}
-		}
-		p {
-			className = ClassName("my-code-name")
 			+"Tetraconnect"
 		}
 		div {
@@ -149,16 +137,7 @@ val MyCode = FC<Props> {
 			+"Kotlin Multiplatform Mobile"
 		}
 		p {
-			className = ClassName("my-code-name")
-			+"Marsbazaar (KMM app)"
-		}
-		div {
-			a {
-				href = "https://github.com/PP6464/marsbazaar-kmm"
-				target = WindowTarget._blank
-				rel = "noreferrer"
-				+"View code on Github"
-			}
+			+"No code yet"
 		}
 		h3 {
 			id = "compose"
@@ -226,18 +205,6 @@ val MyCode = FC<Props> {
 		}
 		p {
 			className = ClassName("my-code-name")
-			+"Encode API"
-		}
-		div {
-			a {
-				href = "https://github.com/PP6464/EncodeAPI"
-				target = WindowTarget._blank
-				rel = "noreferrer"
-				+"View code on Github"
-			}
-		}
-		p {
-			className = ClassName("my-code-name")
 			+"Commenter (API) [Work in progress]"
 		}
 		div {
@@ -251,18 +218,6 @@ val MyCode = FC<Props> {
 		h3 {
 			id = "nest"
 			+"Nest"
-		}
-		p {
-			className = ClassName("my-code-name")
-			+"Mercury (API) [Work in progress]"
-		}
-		div {
-			a {
-				href = "https://github.com/PP6464/mercury-api"
-				target = WindowTarget._blank
-				rel = "noreferrer"
-				+"View code on Github"
-			}
 		}
 		p {
 			className = ClassName("my-code-name")
@@ -309,16 +264,7 @@ val MyCode = FC<Props> {
 			+"Game Development"
 		}
 		p {
-			className = ClassName("my-code-name")
-			+"Race3D [Work in progress]"
-		}
-		div {
-			a {
-				href = "https://github.com/PP6464/Race3D"
-				target = WindowTarget._blank
-				rel = "noreferrer"
-				+"View code on Github"
-			}
+			+"(No code yet)"
 		}
 		h3 {
 			id = "computer-vision"
