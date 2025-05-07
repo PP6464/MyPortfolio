@@ -137,7 +137,7 @@ val MyCode = FC<Props> {
 			+"Kotlin Multiplatform Mobile"
 		}
 		p {
-			+"No code yet"
+			+"(No code yet)"
 		}
 		h3 {
 			id = "compose"
