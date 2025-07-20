@@ -129,6 +129,41 @@ val WhatIAmExploring = FC<Props> {
 			div {
 				div {
 					h1 {
+						+"Computer Graphics"
+					}
+					p {
+						style = jso {
+							paddingBottom = 45.px
+						}
+						+"Computer graphics is a field that takes many interesting areas of mathematics and high performance code and applies them to produce stunning visuals, which has intrigued me and made me want to look into it more."
+					}
+				}
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code#computer-graphics"
+					+"View experimental code"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
+						}
+					}
+				}
+			}
+			img {
+				src = "/computer-graphics.jpg"
+				alt = ""
+			}
+		}
+		div {
+			className = ClassName("section")
+			div {
+				div {
+					h1 {
 						+"Arduino"
 					}
 					p {
