@@ -52,7 +52,7 @@ val Home = FC<Props> {
 				textAlign = TextAlign.center
 				padding = Padding(0.px, 10.px, 5.px)
 			}
-			+"I am a self-taught programmer with experience in many areas and frameworks."
+			+"I am a programmer with experience in many areas and frameworks, and someone who is always learning new skills, frameworks and areas of programming."
 		}
 		div {
 			className = ClassName("section")

@@ -59,6 +59,41 @@ val WhatIAmExploring = FC<Props> {
 			div {
 				div {
 					h1 {
+						+"Assembly"
+					}
+					p {
+						style = jso {
+							paddingBottom = 45.px
+						}
+						+"Assembly is a very low-level language that is essential to performance-critical code, and allows for an extreme level of low-level control of hardware and software. This is something that I find particularly interesting and am exploring keenly."
+					}
+				}
+				Link {
+					style = jso {
+						display = Display.flex
+						alignItems = AlignItems.center
+						justifyContent = JustifyContent.center
+						fontSize = 15.px
+					}
+					to = "/my-code#assembly"
+					+"View experimental code"
+					ArrowOutward {
+						style = jso {
+							height = 17.5.px
+						}
+					}
+				}
+			}
+			img {
+				src = "/assembly.png"
+				alt = ""
+			}
+		}
+		div {
+			className = ClassName("section")
+			div {
+				div {
+					h1 {
 						+"Game development"
 					}
 					p {

@@ -46,7 +46,7 @@ val AboutMe = FC<Props> {
 				}
 				p {
 					id = "about-me-text"
-					+"I am a self-taught programmer with experience using many different frameworks and I have experience with many different areas of programming, spanning web and app development to API and neural network development."
+					+"I am a programmer with experience using many different frameworks and with many different areas of programming, spanning web and app development to API and neural network development. I am always learning and exploring new frameworks and areas of programming."
 				}
 			}
 			div {

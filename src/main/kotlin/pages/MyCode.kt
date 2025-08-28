@@ -267,6 +267,22 @@ val MyCode = FC<Props> {
 			+"(No code yet)"
 		}
 		h3 {
+			id = "assembly"
+			+"Assembly"
+		}
+		p {
+			className = ClassName("my-code-name")
+			+"Celsius to Fahrenheit"
+		}
+		div {
+			a {
+				href = "https://github.com/PP6464/celsius_to_fahrenheit"
+				target = WindowTarget._blank
+				rel = "noreferrer"
+				+"View code on Github"
+			}
+		}
+		h3 {
 			id = "computer-vision"
 			+"Computer Vision"
 		}
